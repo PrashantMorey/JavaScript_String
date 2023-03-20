@@ -1,0 +1,80 @@
+body{
+    height: 100vh;
+    width: 99%;
+    background-image: url(./wp4254882-dark-4k-wallpapers.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    font-size: 20px;
+    text-align: center;
+    color: #d9bf74;
+
+    background: linear-gradient(
+        to right,
+        #462523 0,
+               #cb9b51 22%, 
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+        );
+         background-clip: text;
+         -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1s;
+}
+
+.heading-1{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.heading-2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main div{
+    perspective: 1500px;
+}
+.box{
+    background: linear-gradient(
+         45deg,#b79d51,#cfb04c,#332e23 );
+    width: 550px;
+    border-radius: 6px;
+    height: fit-content;
+    margin: 15px 0;
+    transform: rotateX(10deg) rotateY(-18deg) rotateZ(5deg);
+    box-shadow: 5px 10px 30px hsla(0, 2%, 35%, 0.788);
+    transition: 0.4s;
+}
+.box:hover{
+    transform: rotate(0) ;
+    margin: 16px 0;
+    height: fit-content;
+    width: 555px;
+
+}
+.box h3{
+    font-size: 25px;
+}
+pre{
+    margin-right: 100px;
+    color: black;
+    font-size: 16px;
+}
